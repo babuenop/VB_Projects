@@ -52,7 +52,7 @@ Public Partial Class MainForm
 			vOper(i).Enabled = False
 		Next
 		
-		
+		btnllenar.Enabled=False
 	End Sub
 	
 	Sub Btnnum1Click(sender As Object, e As EventArgs)
@@ -145,6 +145,10 @@ Public Partial Class MainForm
 	End Sub
 	
 	Sub Label1Click(sender As Object, e As EventArgs)
+		
+	End Sub
+	
+	Sub MainFormLoad(sender As Object, e As EventArgs)
 		
 	End Sub
 End Class
