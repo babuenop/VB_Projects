@@ -19,7 +19,7 @@ Public Partial Class MainForm
 	Sub BtnEjecutarClick(sender As Object, e As EventArgs)
 		Dim calcular As Calcular = New Calcular("con") 
 		txtresultado.Text = Calcular.Saludar
-		txtSuma.Text = calcular.Sumar (5,8).ToString
+		txtSuma.Text = Calcular.Sumar (5,8).ToString
 		txtMensaje.Text = calcular.dMensaje
 		
 		
