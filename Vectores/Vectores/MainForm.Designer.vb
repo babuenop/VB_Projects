@@ -51,6 +51,7 @@ Partial Class MainForm
 		Me.txtNum5 = New System.Windows.Forms.TextBox()
 		Me.txtNum6 = New System.Windows.Forms.TextBox()
 		Me.txtNum7 = New System.Windows.Forms.TextBox()
+		Me.label1 = New System.Windows.Forms.Label()
 		Me.SuspendLayout
 		'
 		'txtnum1
@@ -205,11 +206,21 @@ Partial Class MainForm
 		Me.txtNum7.Size = New System.Drawing.Size(38, 20)
 		Me.txtNum7.TabIndex = 18
 		'
+		'label1
+		'
+		Me.label1.Location = New System.Drawing.Point(22, 13)
+		Me.label1.Name = "label1"
+		Me.label1.Size = New System.Drawing.Size(577, 23)
+		Me.label1.TabIndex = 19
+		Me.label1.Text = "Braulio Alberto Bueno Pabon"
+		AddHandler Me.label1.Click, AddressOf Me.Label1Click
+		'
 		'MainForm
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.ClientSize = New System.Drawing.Size(628, 292)
+		Me.Controls.Add(Me.label1)
 		Me.Controls.Add(Me.txtNum7)
 		Me.Controls.Add(Me.txtNum6)
 		Me.Controls.Add(Me.txtNum5)
@@ -233,6 +244,7 @@ Partial Class MainForm
 		Me.ResumeLayout(false)
 		Me.PerformLayout
 	End Sub
+	Private label1 As System.Windows.Forms.Label
 	Private txtNum7 As System.Windows.Forms.TextBox
 	Private txtNum6 As System.Windows.Forms.TextBox
 	Private txtNum5 As System.Windows.Forms.TextBox

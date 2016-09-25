@@ -3,3 +3,8 @@ C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Vectores\Vectores\bin\D
 C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Vectores\Vectores\obj\Debug\Vectores.vbprojResolveAssemblyReference.cache
 C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Vectores\Vectores\obj\Debug\Vectores.exe
 C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Vectores\Vectores\obj\Debug\Vectores.pdb
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\Vectores\Vectores\bin\Debug\vectores.exe
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\Vectores\Vectores\bin\Debug\vectores.pdb
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\Vectores\Vectores\obj\Debug\Vectores.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\Vectores\Vectores\obj\Debug\vectores.exe
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\Vectores\Vectores\obj\Debug\vectores.pdb

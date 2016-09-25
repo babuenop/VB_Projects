@@ -143,4 +143,8 @@ Public Partial Class MainForm
 	Sub VOper3Click(sender As Object, e As EventArgs)
 	CargarOper(3)
 	End Sub
+	
+	Sub Label1Click(sender As Object, e As EventArgs)
+		
+	End Sub
 End Class
