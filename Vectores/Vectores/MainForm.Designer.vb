@@ -50,10 +50,13 @@ Partial Class MainForm
 		Me.txtNum5 = New System.Windows.Forms.TextBox()
 		Me.txtNum6 = New System.Windows.Forms.TextBox()
 		Me.txtNum7 = New System.Windows.Forms.TextBox()
-		Me.textBox2 = New System.Windows.Forms.TextBox()
 		Me.label1 = New System.Windows.Forms.Label()
 		Me.label2 = New System.Windows.Forms.Label()
 		Me.txtR_Parcial = New System.Windows.Forms.TextBox()
+		Me.txtResultado = New System.Windows.Forms.TextBox()
+		Me.Operador0 = New System.Windows.Forms.Label()
+		Me.Operador1 = New System.Windows.Forms.Label()
+		Me.Operador2 = New System.Windows.Forms.Label()
 		Me.SuspendLayout
 		'
 		'txtnum1
@@ -107,7 +110,7 @@ Partial Class MainForm
 		Me.btnnum1.FlatStyle = System.Windows.Forms.FlatStyle.System
 		Me.btnnum1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
 		Me.btnnum1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-		Me.btnnum1.Location = New System.Drawing.Point(30, 90)
+		Me.btnnum1.Location = New System.Drawing.Point(30, 89)
 		Me.btnnum1.Name = "btnnum1"
 		Me.btnnum1.Size = New System.Drawing.Size(40, 30)
 		Me.btnnum1.TabIndex = 0
@@ -122,7 +125,7 @@ Partial Class MainForm
 		Me.btnnum2.FlatStyle = System.Windows.Forms.FlatStyle.System
 		Me.btnnum2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
 		Me.btnnum2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-		Me.btnnum2.Location = New System.Drawing.Point(150, 90)
+		Me.btnnum2.Location = New System.Drawing.Point(150, 89)
 		Me.btnnum2.Name = "btnnum2"
 		Me.btnnum2.Size = New System.Drawing.Size(40, 30)
 		Me.btnnum2.TabIndex = 0
@@ -147,7 +150,7 @@ Partial Class MainForm
 		'txtindice
 		'
 		Me.txtindice.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-		Me.txtindice.Location = New System.Drawing.Point(446, 94)
+		Me.txtindice.Location = New System.Drawing.Point(450, 93)
 		Me.txtindice.Name = "txtindice"
 		Me.txtindice.Size = New System.Drawing.Size(34, 26)
 		Me.txtindice.TabIndex = 7
@@ -213,7 +216,7 @@ Partial Class MainForm
 		Me.btnnum4.FlatStyle = System.Windows.Forms.FlatStyle.System
 		Me.btnnum4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
 		Me.btnnum4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-		Me.btnnum4.Location = New System.Drawing.Point(390, 90)
+		Me.btnnum4.Location = New System.Drawing.Point(390, 89)
 		Me.btnnum4.Name = "btnnum4"
 		Me.btnnum4.Size = New System.Drawing.Size(40, 30)
 		Me.btnnum4.TabIndex = 0
@@ -262,15 +265,6 @@ Partial Class MainForm
 		Me.txtNum7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
 		AddHandler Me.txtNum7.TextChanged, AddressOf Me.TxtNum7TextChanged
 		'
-		'textBox2
-		'
-		Me.textBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-		Me.textBox2.Location = New System.Drawing.Point(390, 223)
-		Me.textBox2.Name = "textBox2"
-		Me.textBox2.Size = New System.Drawing.Size(40, 26)
-		Me.textBox2.TabIndex = 20
-		Me.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-		'
 		'label1
 		'
 		Me.label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
@@ -300,16 +294,55 @@ Partial Class MainForm
 		Me.txtR_Parcial.TabIndex = 23
 		Me.txtR_Parcial.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
 		'
+		'txtResultado
+		'
+		Me.txtResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+		Me.txtResultado.Location = New System.Drawing.Point(355, 223)
+		Me.txtResultado.Name = "txtResultado"
+		Me.txtResultado.Size = New System.Drawing.Size(103, 26)
+		Me.txtResultado.TabIndex = 24
+		Me.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+		'
+		'Operador0
+		'
+		Me.Operador0.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+		Me.Operador0.Location = New System.Drawing.Point(90, 93)
+		Me.Operador0.Name = "Operador0"
+		Me.Operador0.Size = New System.Drawing.Size(40, 26)
+		Me.Operador0.TabIndex = 25
+		Me.Operador0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		'
+		'Operador1
+		'
+		Me.Operador1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+		Me.Operador1.Location = New System.Drawing.Point(210, 93)
+		Me.Operador1.Name = "Operador1"
+		Me.Operador1.Size = New System.Drawing.Size(40, 26)
+		Me.Operador1.TabIndex = 26
+		Me.Operador1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		'
+		'Operador2
+		'
+		Me.Operador2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+		Me.Operador2.Location = New System.Drawing.Point(330, 93)
+		Me.Operador2.Name = "Operador2"
+		Me.Operador2.Size = New System.Drawing.Size(40, 26)
+		Me.Operador2.TabIndex = 27
+		Me.Operador2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		'
 		'MainForm
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.SystemColors.Menu
 		Me.ClientSize = New System.Drawing.Size(605, 292)
+		Me.Controls.Add(Me.Operador2)
+		Me.Controls.Add(Me.Operador1)
+		Me.Controls.Add(Me.Operador0)
+		Me.Controls.Add(Me.txtResultado)
 		Me.Controls.Add(Me.txtR_Parcial)
 		Me.Controls.Add(Me.label2)
 		Me.Controls.Add(Me.label1)
-		Me.Controls.Add(Me.textBox2)
 		Me.Controls.Add(Me.txtNum7)
 		Me.Controls.Add(Me.txtNum6)
 		Me.Controls.Add(Me.txtNum5)
@@ -335,10 +368,13 @@ Partial Class MainForm
 		Me.ResumeLayout(false)
 		Me.PerformLayout
 	End Sub
+	Private Operador2 As System.Windows.Forms.Label
+	Private Operador1 As System.Windows.Forms.Label
+	Private Operador0 As System.Windows.Forms.Label
+	Private txtResultado As System.Windows.Forms.TextBox
 	Private txtR_Parcial As System.Windows.Forms.TextBox
 	Private label2 As System.Windows.Forms.Label
 	Private label1 As System.Windows.Forms.Label
-	Private textBox2 As System.Windows.Forms.TextBox
 	Private txtNum7 As System.Windows.Forms.TextBox
 	Private txtNum6 As System.Windows.Forms.TextBox
 	Private txtNum5 As System.Windows.Forms.TextBox

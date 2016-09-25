@@ -36,10 +36,12 @@ Public Partial Class MainForm
 '	
 	
 	Sub BtnllenarClick(sender As Object, e As EventArgs)
-		
 		Dim i As Integer
+		Dim rndOperador(3) As Integer
+		Dim Operador(2) As String
 		Dim rnd As Random = New Random
-				
+		
+		
 		For i = 0 To 3 		
 			vBtnN(i).Text = rnd.Next(1,15)
 			vBtnN(i).Tag = "0"
@@ -51,7 +53,31 @@ Public Partial Class MainForm
 			vOper(i).Enabled = False
 		Next
 		
-		btnllenar.Enabled=False
+		For i = 0 To 3
+		rndOperador(i)= rnd.Next(1,5)
+		Next
+				
+		For i=0 To 2
+			If rndOperador(i)=1 Then
+				Operador(i) =  "+"
+			End If
+			If rndOperador(i)=2 Then
+				Operador(i) = "-"
+			End If
+			If rndOperador(i)=3 Then
+				Operador(i) = "*"
+			End If
+			If rndOperador(i)=4 Then
+				Operador(i) = "/"
+			End If
+		Next
+		
+		Operador0.Text= Operador(0) 
+		Operador1.Text= Operador(1)
+		Operador2.Text= Operador(2)
+		
+		
+		
 	End Sub
 	
 	Sub Btnnum1Click(sender As Object, e As EventArgs)
@@ -127,20 +153,17 @@ Public Partial Class MainForm
 	End Sub
 	
 	Sub SelOperacion(ByVal i As Integer, ByVal n As Integer)
-		If i=0 Then
-			Dim calcular As Calcular = New Calcular
+		Dim calcular As Calcular = New Calcular
+		If i=0 Then	
 			txtR_Parcial.Text = Calcular.Sumar (txtR_Parcial.Text,vTxt(txtindice.Text).text).ToString
 		End If
 		If i=1 Then
-			Dim calcular As Calcular = New Calcular
 			txtR_Parcial.Text = Calcular.Restar (txtR_Parcial.Text,vTxt(txtindice.Text).Text).ToString
 		End If
 		If i=2 Then
-			Dim calcular As Calcular = New Calcular
 			txtR_Parcial.Text = Calcular.Multiplicar (txtR_Parcial.Text,vTxt(txtindice.Text).Text).ToString
 		End If
 		If i=3 Then
-			Dim calcular As Calcular = New Calcular
 			txtR_Parcial.Text = Calcular.Dividir (txtR_Parcial.Text,vTxt(txtindice.Text).Text).ToString
 		End If
 	End Sub
