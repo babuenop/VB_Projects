@@ -1,0 +1,7 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Cadena\Cadena\obj\Debug\Cadena.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Cadena\Cadena\obj\Debug\Cadena.MainForm.resources
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Cadena\Cadena\obj\Debug\Cadena.vbproj.GenerateResource.Cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Cadena\Cadena\bin\Debug\Cadena.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Cadena\Cadena\bin\Debug\Cadena.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Cadena\Cadena\obj\Debug\Cadena.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Cadena\Cadena\obj\Debug\Cadena.pdb

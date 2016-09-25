@@ -1,0 +1,5 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\vectores33\vectores33\bin\Debug\vectores33.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\vectores33\vectores33\bin\Debug\vectores33.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\vectores33\vectores33\obj\Debug\vectores33.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\vectores33\vectores33\obj\Debug\vectores33.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\vectores33\vectores33\obj\Debug\vectores33.pdb

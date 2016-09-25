@@ -1,0 +1,7 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Ciclos\Ciclos\bin\Debug\Ciclos.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Ciclos\Ciclos\bin\Debug\Ciclos.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Ciclos\Ciclos\obj\Debug\Ciclos.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Ciclos\Ciclos\obj\Debug\Ciclos.MainForm.resources
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Ciclos\Ciclos\obj\Debug\Ciclos.vbproj.GenerateResource.Cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Ciclos\Ciclos\obj\Debug\Ciclos.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Ciclos\Ciclos\obj\Debug\Ciclos.pdb

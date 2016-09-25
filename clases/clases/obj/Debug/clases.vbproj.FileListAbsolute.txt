@@ -1,0 +1,7 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\clases\clases\bin\Debug\clases.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\clases\clases\bin\Debug\clases.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\clases\clases\obj\Debug\clases.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\clases\clases\obj\Debug\clases.MainForm.resources
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\clases\clases\obj\Debug\clases.vbproj.GenerateResource.Cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\clases\clases\obj\Debug\clases.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\clases\clases\obj\Debug\clases.pdb

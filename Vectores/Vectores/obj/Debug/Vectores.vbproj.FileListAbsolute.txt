@@ -1,0 +1,5 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Vectores\Vectores\bin\Debug\Vectores.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Vectores\Vectores\bin\Debug\Vectores.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Vectores\Vectores\obj\Debug\Vectores.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Vectores\Vectores\obj\Debug\Vectores.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Vectores\Vectores\obj\Debug\Vectores.pdb

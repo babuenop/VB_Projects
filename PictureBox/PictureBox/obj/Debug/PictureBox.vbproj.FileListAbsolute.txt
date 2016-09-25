@@ -1,0 +1,7 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\PictureBox\PictureBox\bin\Debug\PictureBox.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\PictureBox\PictureBox\bin\Debug\PictureBox.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\PictureBox\PictureBox\obj\Debug\PictureBox.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\PictureBox\PictureBox\obj\Debug\PictureBox.MainForm.resources
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\PictureBox\PictureBox\obj\Debug\PictureBox.vbproj.GenerateResource.Cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\PictureBox\PictureBox\obj\Debug\PictureBox.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\PictureBox\PictureBox\obj\Debug\PictureBox.pdb

@@ -1,0 +1,3 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Subrutinas\Subrutinas\obj\Debug\Subrutinas.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Subrutinas\Subrutinas\obj\Debug\Subrutinas.MainForm.resources
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Subrutinas\Subrutinas\obj\Debug\Subrutinas.vbproj.GenerateResource.Cache

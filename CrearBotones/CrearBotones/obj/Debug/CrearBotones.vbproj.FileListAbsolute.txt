@@ -1,0 +1,7 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\CrearBotones\CrearBotones\obj\Debug\CrearBotones.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\CrearBotones\CrearBotones\obj\Debug\CrearBotones.MainForm.resources
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\CrearBotones\CrearBotones\obj\Debug\CrearBotones.vbproj.GenerateResource.Cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\CrearBotones\CrearBotones\bin\Debug\CrearBotones.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\CrearBotones\CrearBotones\bin\Debug\CrearBotones.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\CrearBotones\CrearBotones\obj\Debug\CrearBotones.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\CrearBotones\CrearBotones\obj\Debug\CrearBotones.pdb

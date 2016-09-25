@@ -1,0 +1,7 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Adivinar_Numero\Adivinar_Numero\bin\Debug\Adivinar_Numero.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Adivinar_Numero\Adivinar_Numero\bin\Debug\Adivinar_Numero.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Adivinar_Numero\Adivinar_Numero\obj\Debug\Adivinar_Numero.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Adivinar_Numero\Adivinar_Numero\obj\Debug\Adivinar_Numero.MainForm.resources
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Adivinar_Numero\Adivinar_Numero\obj\Debug\Adivinar_Numero.vbproj.GenerateResource.Cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Adivinar_Numero\Adivinar_Numero\obj\Debug\Adivinar_Numero.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Adivinar_Numero\Adivinar_Numero\obj\Debug\Adivinar_Numero.pdb

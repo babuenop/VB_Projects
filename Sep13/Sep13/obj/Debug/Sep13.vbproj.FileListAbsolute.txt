@@ -1,0 +1,7 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Sep13\Sep13\bin\Debug\Sep13.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Sep13\Sep13\bin\Debug\Sep13.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Sep13\Sep13\obj\Debug\Sep13.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Sep13\Sep13\obj\Debug\Sep13.MainForm.resources
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Sep13\Sep13\obj\Debug\Sep13.vbproj.GenerateResource.Cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Sep13\Sep13\obj\Debug\Sep13.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Sep13\Sep13\obj\Debug\Sep13.pdb

@@ -1,0 +1,7 @@
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Aleatorio\Aleatorio\bin\Debug\Aleatorio.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Aleatorio\Aleatorio\bin\Debug\Aleatorio.pdb
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Aleatorio\Aleatorio\obj\Debug\Aleatorio.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Aleatorio\Aleatorio\obj\Debug\Aleatorio.MainForm.resources
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Aleatorio\Aleatorio\obj\Debug\Aleatorio.vbproj.GenerateResource.Cache
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Aleatorio\Aleatorio\obj\Debug\Aleatorio.exe
+C:\Users\abuen\OneDrive\Documentos\SharpDevelop Projects\Aleatorio\Aleatorio\obj\Debug\Aleatorio.pdb
