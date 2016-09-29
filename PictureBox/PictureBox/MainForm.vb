@@ -29,12 +29,25 @@ Public Partial Class MainForm
 	If cohete.Location.X <=0 Then
 		cohete.Location = New Point (0, cohete.Location.Y)
 		x=-x
+		verificadireccion()
 	End If
+	If cohete.Location.X >= Me.Width-10 Then
+		x=-x
+		verificadireccion()
+	End If
+	
+	
 	If cohete.Location.Y <=0  Then
 		cohete.Location = New Point (0, cohete.Location.Y)
 		y=-y
+		verificadireccion()	
 	End If
-		
+	If cohete.Location.Y >= Me.Height-10  Then
+		y=-y
+		verificadireccion()
+	End If
+	
+	
 	End Sub
 	
 	Sub BtnInicioClick(sender As Object, e As EventArgs)
@@ -61,5 +74,13 @@ Public Partial Class MainForm
 		End Select
 		Return MyBase.ProcessCmdKey(msg,keyData)
 	End Function
-		
+	
+	Sub verificadireccion() 
+		If x>0 Then
+			cohete.Image = Image.FromFile("C:\xampp\htdocs\DS7\Lab4\Image2.png")
+		End If
+		If x<0 Then
+			cohete.Image = Image.FromFile("C:\xampp\htdocs\DS7\Lab4\Image3.png")
+		End If
+	End Sub
 End Class
