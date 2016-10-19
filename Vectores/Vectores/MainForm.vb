@@ -72,9 +72,6 @@ Public Partial Class MainForm
 			End If
 		Next
 		
-		Operador0.Text= Operador(0) 
-		Operador1.Text= Operador(1)
-		Operador2.Text= Operador(2)
 		
 		
 		
@@ -200,7 +197,7 @@ Public Partial Class MainForm
 	
 	Sub Txtnum3TextChanged(sender As Object, e As EventArgs)
 		SelOperacion(IdOperacion,txtindice.Text)
-	End Sub
+	End Sub	
 	
 	Sub TxtNum5TextChanged(sender As Object, e As EventArgs)
 		SelOperacion(IdOperacion,txtindice.Text)
@@ -208,5 +205,9 @@ Public Partial Class MainForm
 	
 	Sub TxtNum7TextChanged(sender As Object, e As EventArgs)
 		SelOperacion(IdOperacion,txtindice.Text)
+	End Sub
+	
+	Sub MainFormLoad(sender As Object, e As EventArgs)
+		
 	End Sub
 End Class

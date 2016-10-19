@@ -1,0 +1,12 @@
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\bin\Debug\ConexionDB.exe.config
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\bin\Debug\ConexionDB.exe
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\bin\Debug\ConexionDB.pdb
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\bin\Debug\ConexionDB.xml
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\bin\Debug\mysql.data.dll
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\obj\Debug\ConexionDB.vbprojResolveAssemblyReference.cache
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\obj\Debug\ConexionDB.Form1.resources
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\obj\Debug\ConexionDB.Resources.resources
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\obj\Debug\ConexionDB.vbproj.GenerateResource.Cache
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\obj\Debug\ConexionDB.exe
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\obj\Debug\ConexionDB.xml
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\ConexionDB\obj\Debug\ConexionDB.pdb

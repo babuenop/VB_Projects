@@ -40,7 +40,6 @@ Partial Class MainForm
 		Me.btnnum1 = New System.Windows.Forms.Button()
 		Me.btnnum2 = New System.Windows.Forms.Button()
 		Me.btnnum3 = New System.Windows.Forms.Button()
-		Me.txtindice = New System.Windows.Forms.TextBox()
 		Me.vOper0 = New System.Windows.Forms.Button()
 		Me.vOper1 = New System.Windows.Forms.Button()
 		Me.vOper2 = New System.Windows.Forms.Button()
@@ -57,6 +56,7 @@ Partial Class MainForm
 		Me.Operador0 = New System.Windows.Forms.Label()
 		Me.Operador1 = New System.Windows.Forms.Label()
 		Me.Operador2 = New System.Windows.Forms.Label()
+		Me.txtindice = New System.Windows.Forms.TextBox()
 		Me.SuspendLayout
 		'
 		'txtnum1
@@ -146,14 +146,6 @@ Partial Class MainForm
 		Me.btnnum3.TabIndex = 0
 		Me.btnnum3.UseVisualStyleBackColor = false
 		AddHandler Me.btnnum3.Click, AddressOf Me.Btnnum3Click
-		'
-		'txtindice
-		'
-		Me.txtindice.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-		Me.txtindice.Location = New System.Drawing.Point(450, 93)
-		Me.txtindice.Name = "txtindice"
-		Me.txtindice.Size = New System.Drawing.Size(34, 26)
-		Me.txtindice.TabIndex = 7
 		'
 		'vOper0
 		'
@@ -330,6 +322,14 @@ Partial Class MainForm
 		Me.Operador2.TabIndex = 27
 		Me.Operador2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		'
+		'txtindice
+		'
+		Me.txtindice.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+		Me.txtindice.Location = New System.Drawing.Point(450, 93)
+		Me.txtindice.Name = "txtindice"
+		Me.txtindice.Size = New System.Drawing.Size(34, 26)
+		Me.txtindice.TabIndex = 7
+		'
 		'MainForm
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
@@ -365,6 +365,7 @@ Partial Class MainForm
 		Me.Name = "MainForm"
 		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "Vectores"
+		AddHandler Load, AddressOf Me.MainFormLoad
 		Me.ResumeLayout(false)
 		Me.PerformLayout
 	End Sub
