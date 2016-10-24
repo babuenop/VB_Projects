@@ -15,7 +15,7 @@ Public Class Form1
 
             While reader.Read()
                 ltsCliente.Items.Add(reader.GetString("nombre") & " " & (reader.GetString("apellido")))
-                MessageBox.Show(Environment.MachineName)
+                ''MessageBox.Show(Environment.MachineName)
 
             End While
 
