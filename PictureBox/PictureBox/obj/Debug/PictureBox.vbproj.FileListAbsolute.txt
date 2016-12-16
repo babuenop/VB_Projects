@@ -12,3 +12,4 @@ C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\PictureBox\Pictu
 C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\PictureBox\PictureBox\obj\Debug\PictureBox.vbproj.GenerateResource.Cache
 C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\PictureBox\PictureBox\obj\Debug\PictureBox.exe
 C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\PictureBox\PictureBox\obj\Debug\PictureBox.pdb
+C:\Users\abuen\OneDrive\Documentos\GitHub\SharpDevelop Projects\PictureBox\PictureBox\obj\Debug\PictureBox.Form1.resources

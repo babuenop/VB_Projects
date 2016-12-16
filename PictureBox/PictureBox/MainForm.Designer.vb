@@ -36,30 +36,21 @@ Partial Class MainForm
 		Me.components = New System.ComponentModel.Container()
 		Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
 		Me.cohete = New System.Windows.Forms.PictureBox()
-		Me.btnInicio = New System.Windows.Forms.Button()
 		Me.timer1 = New System.Windows.Forms.Timer(Me.components)
+		Me.timerAsteroide = New System.Windows.Forms.Timer(Me.components)
+		Me.timerBasura = New System.Windows.Forms.Timer(Me.components)
 		CType(Me.cohete,System.ComponentModel.ISupportInitialize).BeginInit
 		Me.SuspendLayout
 		'
 		'cohete
 		'
 		Me.cohete.Image = CType(resources.GetObject("cohete.Image"),System.Drawing.Image)
-		Me.cohete.Location = New System.Drawing.Point(12, 368)
+		Me.cohete.Location = New System.Drawing.Point(60, 383)
 		Me.cohete.Name = "cohete"
-		Me.cohete.Size = New System.Drawing.Size(37, 35)
+		Me.cohete.Size = New System.Drawing.Size(40, 70)
 		Me.cohete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
 		Me.cohete.TabIndex = 0
 		Me.cohete.TabStop = false
-		'
-		'btnInicio
-		'
-		Me.btnInicio.Location = New System.Drawing.Point(381, 12)
-		Me.btnInicio.Name = "btnInicio"
-		Me.btnInicio.Size = New System.Drawing.Size(75, 23)
-		Me.btnInicio.TabIndex = 1
-		Me.btnInicio.Text = "Inicio"
-		Me.btnInicio.UseVisualStyleBackColor = true
-		AddHandler Me.btnInicio.Click, AddressOf Me.BtnInicioClick
 		'
 		'timer1
 		'
@@ -69,16 +60,18 @@ Partial Class MainForm
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(468, 415)
-		Me.Controls.Add(Me.btnInicio)
+		Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"),System.Drawing.Image)
+		Me.ClientSize = New System.Drawing.Size(697, 521)
 		Me.Controls.Add(Me.cohete)
 		Me.KeyPreview = true
 		Me.Name = "MainForm"
+		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "PictureBox"
 		CType(Me.cohete,System.ComponentModel.ISupportInitialize).EndInit
 		Me.ResumeLayout(false)
 	End Sub
+	Private timerBasura As System.Windows.Forms.Timer
+	Private timerAsteroide As System.Windows.Forms.Timer
 	Private timer1 As System.Windows.Forms.Timer
-	Private btnInicio As System.Windows.Forms.Button
 	Private cohete As System.Windows.Forms.PictureBox
 End Class
